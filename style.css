@@ -1,0 +1,340 @@
+nav{
+    padding: 1rem;
+    padding-left: 100px;
+    padding-right: 100px;    
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    gap: 3%;
+
+    
+}
+nav a{
+    color: rgb(23, 22, 22);
+    text-decoration: none;
+    font-size: 1rem;
+    font-size: small;
+}
+#dream{
+    color: rgb(14, 181, 223);
+}
+#pilot{
+    width: 1700px;
+    margin-left: 60px;
+}
+#p1{
+    border: solid 1px;
+    width: 370px;
+    padding: 1px;
+    background-color: rgb(15, 15, 77);
+    border-radius: 10px;
+    color: aliceblue;
+    margin-left: 820px;
+    font-size: 70%;
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 25px;
+    font-size: 39%;
+    border-radius: 30px;
+    background-color: rgb(21, 179, 179);
+}
+h1{
+    margin-left: 190px;
+    text-align: center;
+}
+#trust{
+    display: flex;
+    gap: 20%;
+    text-align: center;
+}
+#home{
+    display: flex;
+    gap: 4%;
+    margin-left: 250px;
+    text-align: center;
+    justify-content: center;
+}
+#hh1{
+    color: rgb(20, 216, 216);
+}
+#pro{
+    margin-left: 260px;
+    text-align: center;
+}
+#fig{
+    display: flex;    
+}
+#dollar{
+    color: rgb(27, 212, 212);
+}
+#crystal{
+   display: flex;
+   gap: 3%;
+   margin-left: 60px;
+}
+#learn{
+    font-size: large;
+}
+#im{
+    display: flex;
+    gap: 2%;
+    margin-left: 60px;
+}
+#th{
+    display: flex;
+}
+#what{
+    display: flex;
+    gap: 10%;
+    margin-left: 10%;
+}
+#footer{
+    display: flex;
+    gap: 5%;
+}
+#image5{
+    width: 870;
+    margin-left: 200px;
+}
+@media screen and (min-width: 280px)and (max-width:576px){
+    #menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.2s ease;
+}
+
+#menuToggle a:hover
+{
+  color: rgb(57, 214, 219);
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 30px;
+  height: 12px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 1; 
+  z-index: 2; 
+  
+  -webkit-touch-callout: none;
+}
+#menuToggle span
+{
+  display: block;
+  width: 20px;
+  height: 1px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #13b6b6;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              0.9s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+#menuToggle input:checked ~ span
+{
+  opacity: 9;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-49deg) translate(0, -2px);
+}
+#menu
+{
+  position: absolute;
+  width: 59px;
+  margin: -600px 0 0 -90px;
+  padding: 50px;
+  padding-top: 40px;
+  display: grid;
+  background: #0cbcc9;
+  list-style-type: row;
+  -webkit-font-smoothing: antialiased;  
+  transform-origin: 0% 0%;
+  transform: translate(-90%, 4);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 9px;
+}
+#menuToggle input:checked ~ ul
+{
+  transform:none
+}
+#footer{
+    display: grid;
+    gap: 0%;
+    grid-template-columns: 1 1fr;
+    margin-left: 40%;
+    font-size: xx-small;
+}#footer{
+    display: grid;
+    margin-top: 2%;
+    margin-right: 30px;
+}
+#image5{
+    width: 370px;
+    margin-left: 9px;
+}
+#p{
+    margin-right: 2px;
+    text-align: center;
+    font-size: x-small;
+}
+#hhh{
+    font-size: 14px;
+    margin-top: 100px;
+
+}
+#img4{
+    width: 270px;
+}
+#what{
+    display: grid;
+}
+#def{
+    margin-right: 1px;
+    text-align: center;
+}
+#hey{
+    font-size: 90%;
+}
+#im2{
+    width: 110px;
+}
+#th{
+    font-size: xx-small;
+    gap: 0px;
+    display: grid;
+}
+#h11{
+    font-size: 90%;
+    margin-right: 0px;
+}
+#pp{
+    text-align: center;
+    margin-left: 30px;
+}
+#crystal{
+    display: grid;
+}
+#learn{
+    font-size:x-small;
+    text-align: justify;
+}
+#how{
+    font-size: 140%;
+    text-align: justify;
+}
+#find{
+    width: 290px;
+}
+#fig{
+    display: grid;
+}
+#hh3{
+    text-align: center;
+    margin-left: 200px;
+}
+#hh2{
+    font-size: 110%;
+}
+#home{
+    display: grid;
+}
+#trust{
+    display: grid;
+}
+#pilot{
+    width: 370px;
+    margin-left: 9px;
+}
+#star{
+    font-size: 110%;
+}
+#p1{
+    margin-left: 20px;
+    margin-top: 140px;
+    width: 350px;
+}
+#ppr{
+    text-align: center;
+}
+#ppo{
+    text-align: center;
+    margin-bottom: 70px;
+}
+#ex{
+    text-align: center;
+}
+#im{
+    gap: 9%;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+#im3{
+    width: 150px;
+    margin-left: 50px;
+    text-align: center;
+}
+#mn{
+    width: 200px;
+}
+
+}
